@@ -1,4 +1,5 @@
-#micropython script for pico w
+# documentation at https://code2tutorial.com/tutorial/25a6669d-069e-43e4-b971-748b003c9e74/index.md
+# micropython script for pico w
 from machine import Pin, I2C
 import time 
 import network
