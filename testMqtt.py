@@ -1,15 +1,17 @@
+#micropython script for pico w
 from machine import Pin, I2C
 import time 
 import network
 from umqtt.simple import MQTTClient
-import WiFi
+
+import WiFi # local wifi connection module
 from getTime import formatted_time
 
 
 
 mqtt_server = 'broker.emqx.io'
 client_id = 'bigles4567'
-topic_pub = b'primebiz'
+topic_pub = b'test'
 topic_msg = b'testing from pico w @ ' + formatted_time
 
 
